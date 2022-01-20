@@ -112,7 +112,6 @@ const Calculator = () => {
         }
 
     }
-
     
     return (
         <CalculatorContainer>
