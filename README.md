@@ -3,7 +3,7 @@
 <h1 align=center>Calculator made with React</h1>
 
 <p align=center>
-    <a href='https://gabrieldp23.github.io/Sword-ToDo'>Click here to view live project</a><br><br/>
+    <a href='https://gabrieldp23.github.io/React_Basic_Calculator/'>Click here to view live project</a><br><br/>
     <img height=30 src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black'>
     &nbsp;
     <img height=30 src='https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=20232A'>
@@ -33,7 +33,7 @@ This project took less than a day to be completed.
 
 ```bash
 # Clone
-git clone https://github.com/gabrieldp23/Sword-ToDo.git
+git clone https://github.com/gabrieldp23/React_Basic_Calculator.git
 
 # Node modules
 npm install
