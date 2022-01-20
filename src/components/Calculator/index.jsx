@@ -8,7 +8,6 @@ import { CalculatorContainer, ButtonsContainer } from './styles';
 const Calculator = () => {
     const [primary, setPrimary] = useState('0');
     const [secondary, setSecondary] = useState('');
-    const [operation, setOperation] = useState('');
 
     const buttons = {
         'delete_all' : 'C',
@@ -32,8 +31,6 @@ const Calculator = () => {
         'inverse' : '+/-',
         'equal' : '='
     };
-
-    const roles = Object.keys(buttons);
 
     function isNumber (digit) {
         return !isNaN(parseInt(digit));
@@ -73,7 +70,6 @@ const Calculator = () => {
         if (whatDelete === 'all') {
             setPrimary('0');
             setSecondary('');
-            setOperation('');
         } else if (whatDelete === 'input') {
             setPrimary('0');
         } else if (whatDelete === 'single') {
