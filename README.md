@@ -1,3 +1,5 @@
+<br/>
+
 <h1 align=center>Calculator made with React</h1>
 
 <p align=center>
@@ -11,9 +13,11 @@
 
 <br/>
 
-<p align=center>
+<div align=center>
 It doesn't need a description, it's a calculator.
-</p>
+
+This project took less than a day to be completed.
+</div>
 
 <br/>
 
